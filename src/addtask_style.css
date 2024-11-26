@@ -1,0 +1,157 @@
+body
+{
+    font-family: 'Red Hat Display';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    box-sizing: border-box; 
+    background: #F6F7F8;
+}
+
+a
+{
+  color: black;
+  text-decoration: none;
+}
+
+img
+{
+  margin-left: 5px;
+}
+
+header
+{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  min-height: 40px;
+  height: 10vh;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addtaskform
+{
+    border-radius: 16px;
+    box-shadow: 0px 7px 16px #EAECF1;
+    background-color: #FFFFFF;
+
+    width: 400px;
+    height: 420px;
+
+    margin-top: 13vh;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+
+}
+
+.line
+{
+  background-color: #246AD3;
+  height: 3px;
+  border-radius: 1.5px;
+  margin-bottom: 16px;
+}
+
+textarea
+{
+  margin: 8px 0px 12px 0px;
+  font-family: 'Red Hat Display';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 394px;
+  min-width: 394px;
+}
+
+.nametextarea textarea
+{
+    min-height: 40px;
+    max-height: 40px;
+}
+
+.descriptiontextarea textarea
+{
+    min-height: 80px;
+    max-height: 80px;
+}
+
+textarea:hover
+{
+  background-color: #EDEEF1;
+  transition: background-color .3s;
+}
+
+input[type=file]
+{
+    margin: 8px 0px 12px 0px;
+}
+
+.cancelbutton
+{
+    border-radius: 12px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #731111;
+    background: #FFD6D6;
+    width: max-content;
+
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.cancelbutton:hover
+{
+  color: #FFFFFF;
+  transition: color .7s;
+  background-color: #C73B3B;
+  transition: background-color .7s;
+}
+
+input[type=submit]
+{
+    background: #246AD3;
+    border-radius: 12px;
+    border-style: none;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    float: right;
+}
+
+input[type=submit]:hover
+{
+  background-color: #071563;
+  transition: background-color .7s;
+}
+
+.error
+{
+  font-size: 12px;
+}

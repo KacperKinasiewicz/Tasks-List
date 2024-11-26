@@ -1,0 +1,191 @@
+body
+{
+    width: 100%;
+    height: 100%;
+    font-family: 'Red Hat Display';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    box-sizing: border-box;
+    background: #F6F7F8;
+}
+
+.ui-state-default
+{
+    font-family: 'Red Hat Display';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    border: none;
+    background: white;
+}
+
+.container
+{
+    position: absolute;
+    max-width: 1470px;
+    max-height: 990px;
+    width: 100%;
+    background-color: inherit;
+}
+
+header
+{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 40px;
+    height: 10vh;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.detailcontainer
+{
+
+    margin: 6% 15%;
+    overflow: auto;
+    height: 75vmin;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 7px 16px 0px #EAECF1;
+}
+
+.upline
+{
+    height: .5vh;
+    background: #A0522D;
+    border-radius: 1.5px;
+    margin: 10px 24px 10px 24px;
+}
+
+.detailcontainer .picturedetail img
+{
+    width: 22vh;
+    height: 22vh;
+    border: unset;
+}
+
+.picturedetail
+{
+    background: #DEB887;
+    overflow: revert;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.taskName
+{
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 87% ;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 42px;
+    word-wrap: break-word;
+}
+
+.taskDescription
+{
+    margin: 0 24px 24px 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    overflow: auto;
+    max-height: 246px;
+    word-wrap: break-word;
+}
+
+.smallLine
+{
+    margin: 10px 24px;
+    height: .2vh;
+    background: #D3D5DC;
+}
+
+.closeIcon
+{
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 24px;
+}
+
+.taskHeader
+{
+    display: flex;
+    align-items: center;
+}
+
+a 
+{
+    text-decoration: none;
+    color: #111111;
+}
+
+.detailsFooter
+{
+    display: flex;
+    align-items: center;
+}
+
+.deleteBtn
+{
+    color: #731111;
+    width: max-content;
+    background: #FFD6D6;
+    border-radius: 12px;
+    padding: 12px 16px;
+    margin-left: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.deleteBtn:hover
+{
+    color: #FFFFFF;
+    transition: color .7s;
+    background: #C73B3B;
+    transition: background .7s;
+}
+
+.editBtn
+{
+    margin-right: 24px;
+    margin-left: auto;
+    width: max-content;
+    color: #5C420D;
+    background: #FFE9AF;
+    border-radius: 12px;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    word-wrap: break-word;
+}
+
+.editBtn:hover
+{
+    color: #000000;
+    transition: color .7s;
+    background: #FFDB5B;
+    transition: background .7s;
+}

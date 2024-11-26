@@ -1,0 +1,108 @@
+body
+{
+    font-size: 17px;
+    overflow-x: hidden;
+}
+
+.editHeader
+{
+    margin-right: 24px;
+    width: 100% ;
+}
+
+.editContainer {
+    margin: 6% 30%;
+    overflow: auto;
+    height: 70vmin;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 7px 16px 0px #EAECF1;
+}
+
+.editContainer .picturedetail img
+{
+    width: 22vh;
+    height: 16vh;
+    border: unset;
+}
+
+form
+{
+    margin-left: 24px;
+    display: block;
+    align-items: center;
+}
+.editBack
+{
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    padding: 10px 12px;
+    background-color: darkseagreen;
+    width: max-content;
+    border-radius: 12px;
+}
+.editTask
+{
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    margin-right: 24px;
+    float: right;
+}
+.editPicture
+{
+    font-family: "Red Hat Display";
+}
+input[type=file]
+{
+    font-family: "Red Hat Display";
+}
+input[type=submit]
+{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    box-sizing: border-box;
+    border: solid 1px;
+    border-color: white;
+    background-color: burlywood;
+    padding: 10px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+textarea {
+    min-width: 60vh;
+    max-width: 60vh;
+    border-radius: 5px;
+    font-family: "Red Hat Display";
+}
+.editDescription textarea
+{
+    max-height: 10vh;
+    min-height: 10vh;
+}
+.editHeader textarea
+{
+    max-height: 6vh;
+    min-height: 6vh;
+}
+input[type=submit]:hover
+{
+    background-color: orangered;
+    transition: .7s background-color;
+    color: #FFFFFF;
+    transition: .5s color;
+}
+.editBack:hover
+{
+    background-color: gold;
+    transition: .7s background-color;
+}
+
+.error
+{
+    font-size: 12px;
+}
