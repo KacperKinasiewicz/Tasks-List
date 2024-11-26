@@ -1,2 +1,2 @@
 # Tasks-List
-Webpage for managing tasks made on traineership in middle school
+Website for managing tasks made on traineership in middle school
